@@ -7,12 +7,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="background"></div>
   <div class="container">
-    <h1>To-Do List</h1>
-    <form id="todo-form">
+    <h1>📝 To-Do List</h1>
+    <form id="todo-form" autocomplete="off">
       <input type="text" id="todo-input" placeholder="Add a new task..." required>
+      <select id="priority-input" aria-label="Priority">
+        <option value="Low">Low Priority</option>
+        <option value="Medium">Medium Priority</option>
+        <option value="High">High Priority</option>
+      </select>
+      <input type="date" id="date-input" aria-label="Due date">
       <button type="submit">Add</button>
     </form>
+    <div class="controls">
+      <input type="text" id="search-input" placeholder="Search tasks..." aria-label="Search tasks">
+      <select id="filter-priority" aria-label="Filter by priority">
+        <option value="">All Priorities</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+    </div>
+    <div id="progress-wrap">
+      <label for="progress-bar">Progress</label>
+      <div id="progress-bar">
+        <div id="progress"></div>
+      </div>
+    </div>
     <ul id="todo-list"></ul>
   </div>
   <script src="script.js"></script>
