@@ -1,6 +1,7 @@
 # To-Do List Web App
 
-![Screenshot of To-Do List App](images/)
+(<img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/274d0273-ec6c-4771-a28a-20d397d7a4ac" />
+)
 
 A feature-rich, responsive To-Do List application built with HTML, CSS, and JavaScript.  
 Easily manage daily tasks with editing, priorities, due dates, and more. Tasks persist via local storage—ideal for personal, work, or school use.
