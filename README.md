@@ -43,8 +43,6 @@ Access your To-Do List on the web:
 ├── index.html
 ├── style.css
 ├── script.js
-├── images/
-│     └── screenshot.png
 └── README.md
 ```
 
